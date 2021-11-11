@@ -4,7 +4,7 @@ clear all
 %PLOTDATA Plots the data points x and y into a new figure 
 %   PLOTDATA(x,y) plots the data points and gives the figure axes labels of
 %   population and profit.
-data = load('D:\Machine Learning Coursera\ex1-ex8-matlab\ex1data1.txt','r');
+data = load('D:\Machine Learning Coursera\ML-Coursera\ex1-ex8-matlab\ex1data1.txt','r');
 % format = '%f %f';
 % textscan(data,format);
 

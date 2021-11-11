@@ -38,7 +38,7 @@ pause;
 
 %% ======================= Part 2: Plotting =======================
 fprintf('Plotting Data ...\n')
-data = load('D:\Machine Learning Coursera\ex1-ex8-matlab\ex1data1.txt');
+data = load('D:\Machine Learning Coursera\ML-Coursera\ex1-ex8-matlab\ex1data1.txt');
 x = data(:, 1); y = data(:, 2);
 m = length(y); % number of training examples
 
@@ -78,7 +78,7 @@ pause;
 % theta = gradientDescent(x, y, theta, alpha, num_iters);
 num_iters = 1500;
 alpha = 0.01;
-data = load('D:\Machine Learning Coursera\ex1-ex8-matlab\ex1data1.txt');
+data = load('D:\Machine Learning Coursera\ML-Coursera\ex1-ex8-matlab\ex1data1.txt');
 y = data(:, 2);
 theta = zeros(2, 1);
 m = length(y);
