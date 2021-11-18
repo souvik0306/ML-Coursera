@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import time 
+import pickle
 learning_rate = 0.01
 
 def mean_square_error(y_true,y_predicted):
@@ -62,11 +63,9 @@ def gradient_descent(x,y,iterations=1000,learning_rate=0.01,stopping_threshold=1
         time.sleep(0.01)
             
         plt.scatter(weights[i],costs[i],marker='o',color='red')
+        
 
     return current_bias,current_bias
-
-
-
 
 x = 2 * np.random.rand(50,1)
 y = 3 * x+np.random.randn(50,1)
@@ -74,5 +73,3 @@ y = 3 * x+np.random.randn(50,1)
 
 estimated_weight,estimated_bias = gradient_descent(x,y,iterations = 2000)
 y = estimated_weight*x+estimated_bias
-# plt.scatter(x,y,color='Blue')
-# plt.show()
