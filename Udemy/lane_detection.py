@@ -33,14 +33,16 @@ def lane_detect(img):
     g = 0
 
     image_with_lines = cv2.addWeighted(img,a,lines_image,b,g)
-
-    return cv2.imshow('Result',image_with_lines),cv2.waitKey(250)
-
-
-# frame = cv2.imread(r'Images\lane2.jpg')
+    
+    return cv2.imshow('Result',image_with_lines),cv2.waitKey(150)
+    
 cap = cv2.VideoCapture(r'Images\lanes_clip.mp4')
 while 1:
     _,frame = cap.read()
-    lane_detect(frame)
+    result = lane_detect(frame)
+    fps = cap.get(cv2.CAP_PROP_FPS)
+    print("Frame rate: ", int(fps), "FPS")
+    if cv2.waitKey(150) & 0xFF == ord('q'):
+        break
 cap.release()
 cv2.destroyAllWindows()
