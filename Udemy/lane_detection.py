@@ -44,6 +44,6 @@ while 1:
     print("Frame rate: ", int(fps), "FPS")
     if cv2.waitKey(150) & 0xFF == ord('q'):
         break
-cap.release()
+cap.release() 
 cv2.destroyAllWindows()
 
