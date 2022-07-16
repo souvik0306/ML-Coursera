@@ -3,7 +3,7 @@
 Neural Network Week 4 - 
 
 Quiz 1 - 
-1. 	
+
 <ol>
   <li>TRUE - 
     <ul>
