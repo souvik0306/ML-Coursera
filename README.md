@@ -23,3 +23,9 @@ Quiz 1 -
 Gradient Descent - 
 
   <image src="https://github.com/souvik0306/ML-Coursera/blob/main/Linear%20Regression/Gradient%20Descent.gif" width="550" height="450">
+
+Logistic Regression -
+
+  <image src="https://github.com/souvik0306/ML-Coursera/blob/main/ex1-ex8-matlab/MATLAB%20Files/EX2/Media/Logistic%20Regression%20Plot%202.jpg" width="550" height="450">
+  
+  <image src="https://github.com/souvik0306/ML-Coursera/blob/main/ex1-ex8-matlab/MATLAB%20Files/EX2/Media/Logistic%20Regression%20Plot%201.jpg" width="550" height="450">
