@@ -1,7 +1,7 @@
 function submitWithConfiguration(conf)
   addpath('./lib/jsonlab');
 
-  parts = parts(conf);
+  part1 = parts(conf);
 
   fprintf('== Submitting solutions | %s...\n', conf.itemName);
 
@@ -19,7 +19,7 @@ function submitWithConfiguration(conf)
   end
 
   try
-    response = submitParts(conf, email, token, parts);
+    response = submitParts(conf, email, token, part1);
   catch
     e = lasterror();
     fprintf('\n!! Submission failed: %s\n', e.message);
@@ -34,7 +34,7 @@ function submitWithConfiguration(conf)
   elseif isfield(response, 'errorCode')
     fprintf('!! Submission failed: %s\n', response.message);
   else
-    showFeedback(parts, response);
+    showFeedback(part1, response);
     save(tokenFile, 'email', 'token');
   end
 end
@@ -63,8 +63,8 @@ end
 
 function response = submitParts(conf, email, token, parts)
   body = makePostBody(conf, email, token, parts);
-  submissionUrl = submissionUrl();
-  responseBody = getResponse(submissionUrl, body);
+  submissionUrl1 = submissionUrl();
+  responseBody = getResponse(submissionUrl1, body);
   jsonResponse = validateResponse(responseBody);
   response = loadjson(jsonResponse);
 end
@@ -88,13 +88,13 @@ function partsStruct = makePartsStruct(conf, parts)
   end
 end
 
-function [parts] = parts(conf)
-  parts = {};
+function [part1] = parts(conf)
+  part1 = {};
   for partArray = conf.partArrays
     part.id = partArray{:}{1};
     part.sourceFiles = partArray{:}{2};
     part.name = partArray{:}{3};
-    parts{end + 1} = part;
+    part1{end + 1} = part;
   end
 end
 
