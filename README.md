@@ -35,10 +35,12 @@ Quiz 2-
 ## Tips - 
 
 | High Bias (Underfit)      | High Variance (Overfit) |
-| ----------- | ----------- |
+| :-----------: | :-----------: |
 | High Training Error      | Low Training Error       |
 | High Cross Validation Error   | High Cross Validation Error        |
 
+  <image src="https://github.com/souvik0306/ML-Coursera/blob/main/ex1-ex8-matlab/MATLAB%20Files/Week%205%20Neural%20Network/Media/Bias%20Variance.png" width="450" height="350">
+  
 ## Gradient Descent - 
 
   <image src="https://github.com/souvik0306/ML-Coursera/blob/main/Linear%20Regression/Gradient%20Descent.gif" width="450" height="350">
