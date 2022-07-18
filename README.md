@@ -2,7 +2,7 @@
 
 ## Neural Network Week 4 - 
 
-Quiz 1 - 
+### Quiz 1 - 
 
 <ol>
   <li>TRUE - 
@@ -17,7 +17,7 @@ Quiz 1 -
   <li>Remains Same</li>
 </ol>
 
-Quiz 2- 
+### Quiz 2- 
 1. Δ (2):=Δ (2)+δ (3)∗(a (2) ) T
 2. reshape(thetaVec(16:39),4,6)
 3. 12.0012
