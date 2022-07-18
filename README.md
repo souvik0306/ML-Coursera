@@ -1,6 +1,6 @@
-## ML-Coursera
+# ML-Coursera
 
-Neural Network Week 4 - 
+## Neural Network Week 4 - 
 
 Quiz 1 - 
 
@@ -27,18 +27,23 @@ Quiz 2-
     </ul>
     
 5. <ul>
-      <li>If we are training a neural network using gradient descent, one reasonable "debugging" step to make sure it is working is to plot J(\Theta)J(Θ) as a function of the number of iterations, and make sure it is decreasing (or at least non-increasing) after each iteration.</li>
+      <li>If we are training a neural network using gradient descent, one reasonable "debugging" step to make sure it is working is to plot J(Θ) as a function of the number of iterations, and make sure it is decreasing (or at least non-increasing) after each iteration.</li>
 
       <li>Suppose you are training a neural network using gradient descent.  Depending on your random initialization, your algorithm may converge to different local optima (i.e., if you run the algorithm twice with different random initializations, gradient descent may converge to two different solutions).</li>
     </ul>
 
+## Tips - 
 
+| High Bias (Underfit)      | High Variance (Overfit) |
+| ----------- | ----------- |
+| High Training Error      | Low Training Error       |
+| High Cross Validation Error   | High Cross Validation Error        |
 
-Gradient Descent - 
+## Gradient Descent - 
 
   <image src="https://github.com/souvik0306/ML-Coursera/blob/main/Linear%20Regression/Gradient%20Descent.gif" width="450" height="350">
 
-Logistic Regression -
+## Logistic Regression -
 
   <image src="https://github.com/souvik0306/ML-Coursera/blob/main/ex1-ex8-matlab/MATLAB%20Files/EX2/Media/Logistic%20Regression%20Plot%202.jpg" width="450" height="350">
   
