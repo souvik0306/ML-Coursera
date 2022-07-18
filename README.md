@@ -15,9 +15,23 @@ Quiz 1 -
   <li>NAND</li>
   <li>This correctly uses the first row of Θ(2) and includes the "+1" term of a(2)0</li>
   <li>Remains Same</li>
-
-
 </ol>
+
+Quiz 2- 
+1. Δ (2):=Δ (2)+δ (3)∗(a (2) ) T
+2. reshape(thetaVec(16:39),4,6)
+3. 12.0012
+4. <ul>
+      <li>For computational efficiency, after we have performed gradient checking to verify that our backpropagation code is correct, we usually disable gradient checking before using backpropagation to train the network.</li>
+      <li>Using gradient checking can help verify if one's implementation of backpropagation is bug-free.	</li>
+    </ul>
+    
+5. <ul>
+      <li>If we are training a neural network using gradient descent, one reasonable "debugging" step to make sure it is working is to plot J(\Theta)J(Θ) as a function of the number of iterations, and make sure it is decreasing (or at least non-increasing) after each iteration.</li>
+
+      <li>Suppose you are training a neural network using gradient descent.  Depending on your random initialization, your algorithm may converge to different local optima (i.e., if you run the algorithm twice with different random initializations, gradient descent may converge to two different solutions).</li>
+    </ul>
+
 
 
 Gradient Descent - 
