@@ -21,7 +21,7 @@
 1. Δ (2):=Δ (2)+δ (3)∗(a (2) ) T
 2. reshape(thetaVec(16:39),4,6)
 3. 12.0012
-4. <ul>
+4. TRUE - <ul>
       <li>For computational efficiency, after we have performed gradient checking to verify that our backpropagation code is correct, we usually disable gradient checking before using backpropagation to train the network.</li>
       <li>Using gradient checking can help verify if one's implementation of backpropagation is bug-free.	</li>
     </ul>
