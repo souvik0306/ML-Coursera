@@ -26,7 +26,7 @@
       <li>Using gradient checking can help verify if one's implementation of backpropagation is bug-free.	</li>
     </ul>
     
-5. <ul>
+5. TRUE - <ul>
       <li>If we are training a neural network using gradient descent, one reasonable "debugging" step to make sure it is working is to plot J(Θ) as a function of the number of iterations, and make sure it is decreasing (or at least non-increasing) after each iteration.</li>
 
       <li>Suppose you are training a neural network using gradient descent.  Depending on your random initialization, your algorithm may converge to different local optima (i.e., if you run the algorithm twice with different random initializations, gradient descent may converge to two different solutions).</li>
