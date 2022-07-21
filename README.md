@@ -32,6 +32,29 @@
       <li>Suppose you are training a neural network using gradient descent.  Depending on your random initialization, your algorithm may converge to different local optima (i.e., if you run the algorithm twice with different random initializations, gradient descent may converge to two different solutions).</li>
     </ul>
 
+### Machine Learning System Design Quiz Week 6 - 
+1. Precision = 0.087 | F1 Score = 0.095
+2. TRUE - <ul>
+      <li>The features x contain sufficient information to predict y accurately.  (For example, one way to verify this is if a human expert on the domain can confidently predict y when given only x).</li>
+
+      <li>We train a learning algorithm with a large number of parameters (that is able to learn/represent fairly complex functions).</li>
+    </ul>
+3. The classifier is likely to now have higher recall. when threshold in reduced from 0.5 to 0.1.
+4. TRUE - <ul>
+      <li>A good classifier should have both a high precision and high recall on the cross validation set.</li>
+
+      <li>If you always predict non-spam (output y=0), your classifier will have 99% accuracy on the training set, and it will likely perform similarly on the cross validation set.</li>
+
+      <li>If you always predict non-spam (output y=0), your classifier will have an accuracy of 99%.</li>
+    </ul>
+5. TRUE - <ul>
+      <li>Using a very large training set makes it unlikely for model to overfit the training data.</li>
+
+    <li>The "error analysis" process of manually examining the examples which your algorithm got wrong can help suggest what are good steps to take (e.g., developing new features) to improve your algorithm's performance
+</li>
+
+</ul>
+
 ## Tips - 
 
 | High Bias (Underfit)      | High Variance (Overfit) |
