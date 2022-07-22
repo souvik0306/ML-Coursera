@@ -75,4 +75,4 @@
   <image src="https://github.com/souvik0306/ML-Coursera/blob/main/ex1-ex8-matlab/MATLAB%20Files/EX2/Media/Logistic%20Regression%20Plot%201.jpg" width="450" height="350">
 
 ## Resources - 
-1. Matplotlib Color Map - [Matplotlib](https://matplotlib.org/stable/tutorials/colors/colormaps.html)
+1. Matplotlib Color Map - [[Matplotlib]](https://matplotlib.org/stable/tutorials/colors/colormaps.html)
