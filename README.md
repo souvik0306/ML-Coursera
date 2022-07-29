@@ -22,6 +22,10 @@ This repo is a part of Coursera's Machine Learning Course by Stanford University
   <li>Remains Same</li>
 </ol>
 
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
 ### Quiz 2- 
 1. Δ (2):=Δ (2)+δ (3)∗(a (2) ) T
 2. reshape(thetaVec(16:39),4,6)
@@ -36,6 +40,10 @@ This repo is a part of Coursera's Machine Learning Course by Stanford University
 
       <li>Suppose you are training a neural network using gradient descent.  Depending on your random initialization, your algorithm may converge to different local optima (i.e., if you run the algorithm twice with different random initializations, gradient descent may converge to two different solutions).</li>
     </ul>
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
 
 ### Machine Learning System Design Quiz Week 6 - 
 1. Precision = 0.087 | F1 Score = 0.095
@@ -60,6 +68,10 @@ This repo is a part of Coursera's Machine Learning Course by Stanford University
 
 </ul>
 
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
 ## Tips - 
 
 | High Bias (Underfit)      | High Variance (Overfit) |
@@ -68,6 +80,10 @@ This repo is a part of Coursera's Machine Learning Course by Stanford University
 | High Cross Validation Error   | High Cross Validation Error        |
 
   <image src="https://github.com/souvik0306/ML-Coursera/blob/main/ex1-ex8-matlab/MATLAB%20Files/EX4/Media/Bias%20Variance.png" width="450" height="350">
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
   
 ## Gradient Descent - 
 
@@ -76,8 +92,15 @@ This repo is a part of Coursera's Machine Learning Course by Stanford University
 ## Logistic Regression -
 
   <image src="https://github.com/souvik0306/ML-Coursera/blob/main/ex1-ex8-matlab/MATLAB%20Files/EX2/Media/Logistic%20Regression%20Plot%202.jpg" width="450" height="350">
-  
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
   <image src="https://github.com/souvik0306/ML-Coursera/blob/main/ex1-ex8-matlab/MATLAB%20Files/EX2/Media/Logistic%20Regression%20Plot%201.jpg" width="450" height="350">
 
 ## Resources - 
 1. Matplotlib Color Map - [[Matplotlib]](https://matplotlib.org/stable/tutorials/colors/colormaps.html)
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
