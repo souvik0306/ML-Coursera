@@ -1,5 +1,10 @@
 # ML-Coursera
 
+This repo is a part of Coursera's Machine Learning Course by Stanford University - 
+
+1. Machine Learning - [[Coursera Certificate]](https://www.coursera.org/account/accomplishments/certificate/2MUW94JPLWC7) | Reference Material - [[Hand Written Notes]](https://github.com/souvik0306/Robotics-Specialization/blob/543406c292f7d92bed6455d18adfccc827dd6531/Aerial%20Robotics/Aerial%20Robotics%20Notes.pdf)
+
+
 ## Neural Network Week 4 - 
 
 ### Quiz 1 - 
